@@ -1,0 +1,14 @@
+Django==5.2.17
+djangorestframework
+djangorestframework-simplejwt
+django-filter
+django-cors-headers
+django-jazzmin
+Pillow
+python-dotenv
+dj-database-url
+psycopg[binary]
+gunicorn
+whitenoise
+django-storages[s3]
+boto3
