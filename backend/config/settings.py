@@ -193,6 +193,8 @@ STATIC_URL = "/static/"
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
+WHITENOISE_MANIFEST_STRICT = False
+
 STORAGES = {
     "staticfiles": {
         "BACKEND": (
