@@ -1,4 +1,5 @@
-const API_URL =
+const BACKEND_URL =
+  import.meta.env.VITE_BACKEND_URL ||
   "http://127.0.0.1:8000";
 
 
@@ -17,8 +18,8 @@ export function getMediaUrl(
   }
 
   if (value.startsWith("/")) {
-    return `${API_URL}${value}`;
+    return `${BACKEND_URL}${value}`;
   }
 
-  return `${API_URL}/${value}`;
+  return `${BACKEND_URL}/${value}`;
 }
